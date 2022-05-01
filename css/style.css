@@ -184,7 +184,7 @@ ul{
 /*------------SIDE MENU------------*/
 
 #side-menu{
-	width: 5%;
+	width: 13%;
 	height: auto;
 	float: left;
 	position: absolute;
@@ -555,6 +555,12 @@ ul{
 	cursor: pointer;
 }
 
+.comment-footer2{
+	background: url(../images/card-footer2.png) no-repeat left center;
+	max-height: 20%;
+	margin-left: 2%;
+	cursor: pointer;
+}
 
 .sup-comment, .sub-comment, .co-comment{
 	margin-left: 1%;
@@ -562,6 +568,7 @@ ul{
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 3%;
+	text-align: left;
 	border: 1px solid #E7E7E7;
 }
 
@@ -588,6 +595,9 @@ ul{
 	display: inline-block;
 }
 
+.user-information{
+
+}
 
 .right{
 	padding-right: 50px;
@@ -595,10 +605,6 @@ ul{
 	float: right;
 	display: inline-block;
 	text-align: center;
-}
-
-.sub-comment{
-
 }
 
 #footer{
